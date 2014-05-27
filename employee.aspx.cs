@@ -13,7 +13,7 @@ public partial class employee : System.Web.UI.Page
     {
         SortedList s = new SortedList();
         s.Add("@mode", "delete");
-        txtename.Text = "";
+        txtename.Text = " ";
         txtadd.Text="";
         txtcno.Text="";
         txtemail.Text = "";
